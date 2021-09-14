@@ -8,4 +8,4 @@ class Card:
     
     #test output
     def show(self):
-        print("{} of {}".format(self.value, self.suit))
+        print("{}{}".format(self.value, self.suit))
