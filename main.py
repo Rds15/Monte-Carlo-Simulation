@@ -1,16 +1,16 @@
 from Card import Card
 from Deck import Deck
+from Hand import Hand
+from array import *
 
 
 def main():
 
-    card = Card("Card",6)
-    card.show()
-
     deck = Deck()
-    deck.show() # print ordered deck
-    deck.shuffle() #shuffle
-    print('\n\n')
-    deck.show() # print shuffled deck
+    deck.shuffle()
+    deck.show()
+    
+    print('Here is a returned card: {}'.format(deck.get_card()))
+
 
 main()

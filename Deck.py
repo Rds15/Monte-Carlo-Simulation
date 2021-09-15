@@ -7,9 +7,11 @@ class Deck:
         self.cards = [] #array
         self.build() #function
     
+    #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
     def build(self):
         #adding integers
-        for s in ['S','C','D','H']:
+        for s in ['S','C','D','H']:                        
             for v in range(2,11): #integers 1-10
                 self.cards.append(Card(s,v))
         
@@ -17,6 +19,8 @@ class Deck:
         for s in ['S','C','D','H']:
             for v in ['K','Q','J','A']:
                 self.cards.append(Card(s,v))
+    
+    #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     
     def shuffle(self):
         #start at last index, end at first, decrement by 1
@@ -34,3 +38,9 @@ class Deck:
             c.show()
         
         print({})
+
+    #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+    def get_card(self):
+        return self.cards.index('10')
