@@ -9,8 +9,11 @@ def main():
     deck = Deck()
     deck.shuffle()
     deck.show()
-    
-    print('Here is a returned card: {}'.format(deck.get_card()))
+
+    hand = Hand()
+    hand.fill_hand(deck)
+    hand.showHand()
+   
 
 
 main()

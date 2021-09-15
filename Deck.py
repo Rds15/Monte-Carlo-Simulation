@@ -41,6 +41,5 @@ class Deck:
 
     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-    def get_card(self):
-        return self.cards.index('10')
+    def drawCard(self):
+        return self.cards.pop()
