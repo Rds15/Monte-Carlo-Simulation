@@ -5,9 +5,9 @@ from Deck import Deck
 def main():
 
     card = Card("Card",6)
-    #card.show()
+    card.show()
 
-    deck = Deck()
+    #deck = Deck()
     deck.show()
 
 
