@@ -8,9 +8,9 @@ def main():
     card.show()
 
     deck = Deck()
-    deck.show()
-    deck.shuffle()
+    deck.show() # print ordered deck
+    deck.shuffle() #shuffle
     print('\n\n')
-    deck.show()
+    deck.show() # print shuffled deck
 
 main()
