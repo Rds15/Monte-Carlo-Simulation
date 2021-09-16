@@ -16,10 +16,8 @@ def main():
     hand.showHand()
 
     print('\n\n')
-    hand.calculate(card)
-    
     
     #get size of hand and deck (testing)
-    print('\nlength: {}'.format(deck.show_len()))
-    print('length of hand: {}\n'.format(hand.len_hand()))
+    #print('\nlength: {}'.format(deck.show_len()))
+    #print('length of hand: {}\n'.format(hand.len_hand()))
 main()

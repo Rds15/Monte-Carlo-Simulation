@@ -22,6 +22,3 @@ class Hand:
     #output length of hand
     def len_hand(self):
         return len(self.hand)
-
-    def calculate(self,card):
-        self.hand(card.get_val())
