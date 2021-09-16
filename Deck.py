@@ -36,13 +36,12 @@ class Deck:
     def show(self):
         for c in self.cards:
             c.show()
-        
-        print({})
 
     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     def drawCard(self):
-        return self.cards.pop()
+        
+        return self.cards.pop(0)
 
     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

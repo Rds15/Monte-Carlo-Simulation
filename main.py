@@ -8,16 +8,14 @@ def main():
 
     deck = Deck()
     deck.shuffle()
-    deck.show()
+   # deck.show()
 
     hand = Hand()
     hand.fill_hand(deck)
-    hand.fill_hand(deck)
     hand.showHand()
 
-    print('\nlength: {}\n\n'.format(deck.show_len()))
-
-    deck.show()
+    print('\nlength: {}'.format(deck.show_len()))
+    print('length of hand: {}\n'.format(hand.len_hand()))
 
 
 main()
