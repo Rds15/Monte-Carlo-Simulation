@@ -43,3 +43,9 @@ class Deck:
 
     def drawCard(self):
         return self.cards.pop()
+
+    #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    #output length (for testing)
+    def show_len(self):
+        return len(self.cards)

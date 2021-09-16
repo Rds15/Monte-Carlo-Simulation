@@ -12,8 +12,12 @@ def main():
 
     hand = Hand()
     hand.fill_hand(deck)
+    hand.fill_hand(deck)
     hand.showHand()
-   
+
+    print('\nlength: {}\n\n'.format(deck.show_len()))
+
+    deck.show()
 
 
 main()
