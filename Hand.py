@@ -1,7 +1,7 @@
 from Card import Card
 from Deck import Deck
  
-class Hand:
+class Hand(Card):
     def __init__(self) -> None:
         self.hand = []
         
@@ -17,7 +17,9 @@ class Hand:
     def showHand(self):
         for card in self.hand:
             card.show()
-
+        
+        #for clarity
+        print('')
     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     #output length of hand
     def len_hand(self):

@@ -23,13 +23,7 @@ class Deck:
     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     
     def shuffle(self):
-        #start at last index, end at first, decrement by 1
-        for i in range(len(self.cards) -1, 0, -1):
-
-            rand = random.randint(0,i) # random number between 1-51
-
-            #swap card 'i' and randomly chosen number card 'rand'
-            self.cards[i],self.cards[rand] = self.cards[rand], self.cards[i]
+        return random.shuffle(self.cards)
 
 
     #test output

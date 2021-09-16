@@ -9,14 +9,12 @@ def main():
 
     deck = Deck()
     deck.shuffle()
-   # deck.show()
 
     hand = Hand()
     hand.fill_hand(deck)
-    hand.showHand()
 
-    print('\n\n')
-    
+    print('\nHere is your Hand:')
+    hand.showHand()
     #get size of hand and deck (testing)
     #print('\nlength: {}'.format(deck.show_len()))
     #print('length of hand: {}\n'.format(hand.len_hand()))
