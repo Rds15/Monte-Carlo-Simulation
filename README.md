@@ -4,5 +4,5 @@ Program 1 â€“ Monte Carlo simulation  For our first program of the semester weâ€
 By: Renny Soto
 
 
-Link to Documentation:
+Link to Documentation / Report:
 https://docs.google.com/document/d/1cPuD0-YGCV0WB3TDgNXzggbfLp5HUFFCN98u_s2iE3M/edit?usp=sharing
